@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower shop</title>
+    <link rel="stylesheet" href="styles/cssCart.css">
+    <script src="scripts/data.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logotip" id="logo">
+            <a href = "index.html"><img src="images/Logo.png" /></a>
+        </div>
+        <div class="stanje">
+            <div class="current">
+                <div class="cur">
+                    <h1 id="showcategory">Bring more color into your life</h1>
+                </div>
+            </div>
+            <div class="cart_search" id="cartsearch">
+                <div class = "picture" id = "cart">
+                    <a href = "cart.html">
+                        <img src="images/cart-icon.png"/>
+                        <div class = "cartelement" id = "suma"></div>
+                    </a>
+                </div>
+                <img src="images/search-icon.png" class="pic" id="search" />
+            </div>
+        </div>
+    </header>
+    <div class="checkout">
+        <div class = "checkoutContent">
+            <div class = "checkoutSign">Checkout</div>
+            <div class="window">
+                <div class = "gridel" id = "emptybasket">Empty basket</div>
+                <div class="grid" id = "g">
+                    <div class="gridel" id="proizvodNad">Product name</div>
+                    <div class="gridel" id="kolicinaNad">Quantity</div>
+                    <!-- <div class = "gridel" id = "kolicina0">
+                        <button class = "gumb" id = "minus">-</button>
+                        <div class = "q">3</div>
+                        <button class = "gumb" id ="plus">+</button>
+                    </div> -->
+                </div>
+    
+            </div>
+        </div>
+    </div>
+    <script src = "scripts/cart.js"></script>
+</body>
+
+</html>

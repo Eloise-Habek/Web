@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flower shop</title>
+    <link rel="stylesheet" href="styles/cssMain.css">
+    <script src="scripts/data.js"></script>
+</head>
+
+<body>
+    <header class="header">
+        <div class="logotip" id="logo">
+            <a href = "index.html"><img src="images/Logo.png" /></a>
+        </div>
+        <div class="stanje">
+            <div class="current">
+                <div class="cur">
+                    <h1 id="showcategory"></h1>
+                </div>
+            </div>
+            <div class="cart_search" id="cartsearch">
+                <div class = "picture" id = "cart">
+                    <a href = "cart.html">
+                        <img src="images/cart-icon.png"/>
+                        <div class = "cartelement" id = "suma"></div>
+                    </a>
+                </div>
+                <img src="images/search-icon.png" class="pic" id="search" />
+            </div>
+        </div>
+
+    </header>
+    <div class="section" id="mobile">
+        <img src="images/main.jpg" class="mainPic" />
+        <div class="hello" id="tekst">
+            <h1>Welcome</h1>
+            
+        </div>
+    </div>
+    <div class="bottom">
+        <nav>
+            <div class="kategorije">
+                <div class="Kategorija" id="Kat1" onclick = "showContent(0)">Roses</div>
+                <div class="Kategorija" id="Kat2" onclick = "showContent(1)">Lilies</div>
+                <div class="Kategorija" id="Kat3" onclick = "showContent(2)">Tulips</div>
+                <div class="Kategorija" id="Kat4" onclick = "showContent(3)">Hydrangeas</div>
+                <div class="Kategorija" id="Kat5" onclick = "showContent(4)">Orchids</div>
+                <div class="Kategorija" id="Kat6" onclick = "showContent(5)">Chrysanthemums</div>
+                <div class="Kategorija" id="Kat7" onclick = "showContent(6)">Seasonal bouquet</div>
+                <div class="Kategorija" id="Kat8" onclick = "showContent(7)">Carnations</div>
+                <div class="Kategorija" id="Kat9" onclick = "showContent(8)">Gerbera Daisies</div>
+                <div class="Kategorija" id="Kat10" onclick = "showContent(9)">Individuals</div>
+            </div>
+            <div class="info">
+                <div class="KNP" id="Kontakt">Kontakt</div>
+                <div class="KNP" id="Newsletter">Newsletter</div>
+                <div class="KNP" id="Pretplati">Pretplati se</div>
+            </div>
+        </nav>
+        <div class="computerDim">
+            <div class="section" id="computer">
+                <img src="images/main.jpg" class="mainPic" />
+                <div class="hello" id="tekst">
+                    <h1>Welcome</h1>
+                </div>
+            </div>
+            <div class="ContentDrzim">
+                <div class="Content" id="con">
+                    <div class="slika" id="1">
+                        <div class = "slika_kosarica" id = "sk1">
+                            <img src="" class="pic" id = "pic1"/>
+                            <div class = "kosarica" id = "kos1">
+                                <img src ="" class = "cartpic" id = "item1"/>
+                            </div>
+                            <div class = "cartelement" id = "suma1"></div>
+                        </div>
+                        <div class="proizvod" id = "p1">
+                        </div>
+                        <hr />
+                        <div class="cat">
+                        </div>
+                    </div>
+                    <div class="slika" id="2">
+                        <div class = "slika_kosarica" id = "sk2">
+                            <img src="" class="pic" id = "pic2" />
+                            <div class = "kosarica" id = "kos2">
+                                <img src ="" class = "cartpic" id = "item2"/>
+                            </div>
+                            <div class = "cartelement" id = "suma2" ></div>
+                        </div>
+                        <div class="proizvod" id = "p2">
+                        </div>
+                        <hr />
+                        <div class="cat">
+                        </div>
+                    </div>
+                    <div class="slika" id="3">
+                        <div class = "slika_kosarica" id = "sk3">
+                            <img src="" class="pic" id = "pic3"/>
+                            <div class = "kosarica" id = "kos3">
+                                <img src ="" class = "cartpic" id = "item3"/>
+                            </div>
+                            <div class = "cartelement" id = "suma3"></div>
+                        </div>
+                        <div class="proizvod" id = "p3">
+                        </div>
+                        <hr />
+                        <div class="cat">
+                        </div>
+                    </div>
+                    <div class="slika" id="4">
+                        <div class = "slika_kosarica" id = "sk4">
+                            <img src="" class="pic" id = "pic4"/>
+                            <div class = "kosarica" id = "kos4">
+                                <img src ="" class = "cartpic" id = "item4"/>
+                            </div>
+                            <div class = "cartelement" id = "suma4"></div>
+                        </div>
+                        <div class="proizvod" id = "p4">
+                        </div>
+                        <hr />
+                        <div class="cat">
+                        </div>
+                    </div>
+                    <div class="slika" id="5">
+                        <div class = "slika_kosarica" id = "sk5">
+                            <img src="" class="pic" id = "pic5"/>
+                            <div class = "kosarica" id = "kos5">
+                                <img src ="" class = "cartpic" id = "item5"/>
+                            </div>
+                            <div class = "cartelement" id = "suma5"></div>
+                        </div>
+                        <div class="proizvod" id = "p5">
+                        </div>
+                        <hr />
+                        <div class="cat">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="scripts/main.js"></script>
+</body>
+
+</html>
